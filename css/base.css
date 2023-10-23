@@ -17,24 +17,24 @@
   font-style: normal;
 }
 
-/* :root{ */
+:root{
   /* color */
-  /* --main_color:#AB162C;
+  --main_color:#AB162C;
   --sub_color:#93171F;
   --point_color1: #C1B7AE;
-  --point_color2: #FDCD63; */
+  --point_color2: #FDCD63;
 
   /* txt-color */
-  /* --txt_basic:#333; */
+  --txt_basic:#333;
 
   /* font */
-  /* --eng_font:'Wix Madefor Display', 'Pretendard', Inter;
-} */
+  --eng_font:'Wix Madefor Display', 'Pretendard', Inter;
+}
 
 * {box-sizing: border-box;}
 
 body{
   font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
   font-size: 18px;
-  /* color: var(--txt_basic); */
+  color: var(--txt_basic);
 }

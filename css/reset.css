@@ -75,6 +75,6 @@ input, select {
 
 /* 추가 */
 a{
-  /* color: var(--txt_basic); */
+  color: var(--txt_basic);
   text-decoration: none;
 }

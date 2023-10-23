@@ -8,11 +8,11 @@
 }
 
 /* 내용 숨김 */
-/* h2:not(#community h2) {
+h2:not(#community h2) {
   display: block;
   width: 1px;height: 1px;
   text-indent: -9999px;
-} */
+}
 
 /************ 헤더 ************/
 body > header {
@@ -25,10 +25,10 @@ body > header {
 
 /* 내비게이션 */
 #gnb > ul > li > a {
-  /* font-family: var(--eng_font); */
+  font-family: var(--eng_font);
   transition: 0.3s;
 }
-/* #gnb li:hover > a{color: var(--main_color);} */
+#gnb li:hover > a{color: var(--main_color);}
 
 /* 다국어 버튼 */
 .lang {
@@ -39,7 +39,7 @@ body > header {
 .lang button {
   background: none;
   border: none;
-  /* font-family: var(--eng_font); */
+  font-family: var(--eng_font);
   font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
@@ -60,7 +60,7 @@ body > header {
 .lang li {
   display: none;
   padding: 4px;
-  /* font-family: var(--eng_font); */
+  font-family: var(--eng_font);
   font-size: 1rem;
   font-weight: bold;
 }
@@ -83,7 +83,7 @@ footer a {color: #8C8C8C;}
   color: #fff;
   text-align: center;
 }
-/* .family option {color: var(--txt_basic);} */
+.family option {color: var(--txt_basic);}
 .footer_call dt a{color: #FFF9F4;}
 
 /************ 배너 ************/
@@ -124,7 +124,7 @@ footer a {color: #8C8C8C;}
 #side_m {display: none;}
 
 #menu .swiper-slide {
-  /* color: var(--txt_basic); */
+  color: var(--txt_basic);
   font-weight: bold;
   text-align: center;
 }
@@ -143,7 +143,7 @@ footer a {color: #8C8C8C;}
 /* 플로우 텍스트 */
 .flow_txt:nth-child(2n){
   color: transparent;
-  /* -webkit-text-stroke: 2px var(--main_color); */
+  -webkit-text-stroke: 2px var(--main_color);
 }
 .flow_txt {
   padding-right: 10px;
@@ -163,7 +163,7 @@ footer a {color: #8C8C8C;}
 
 /* 슬라이드 */
 .news_txt .view_btn:hover {
-  /* background-color: var(--main_color); */
+  background-color: var(--main_color);
   color: #fff;
 }
 #news .arrow_btn:hover {background: rgba(147, 23, 31, 0.5);}
@@ -172,8 +172,8 @@ footer a {color: #8C8C8C;}
 #community .swiper-pagination-bullet {
   width: 13px; height: 13px;
   border-radius: 50%;
-  /* background: var(--point_color1); */
+  background: var(--point_color1);
 }
 #community .swiper-pagination-bullet-active {
-  /* background-color: var(--point_color2); */
+  background-color: var(--point_color2);
 }
