@@ -36,5 +36,5 @@
 body{
   font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
   font-size: 18px;
-  color: var(--txt_basic);
+  /* color: var(--txt_basic); */
 }
