@@ -59,7 +59,7 @@
 .swiper-slide {
   flex-shrink: 0;
   width: 380px;
-  height: 380px;
+  height: 100%;  /* 수정 */
   position: relative;
   transition-property: transform;
 }
@@ -132,8 +132,10 @@
 .swiper-container-vertical.swiper-container-css-mode > .swiper-wrapper {
   scroll-snap-type: y mandatory;
 }
+
+/* 아이콘 크기 수정 */
 :root {
-  --swiper-navigation-size: 44px;
+  --swiper-navigation-size: 22px;
   /*
   --swiper-navigation-color: var(--swiper-theme-color);
   */
@@ -215,7 +217,7 @@
 .swiper-pagination-fraction,
 .swiper-pagination-custom,
 .swiper-container-horizontal > .swiper-pagination-bullets {
-  bottom: 10px;
+  /* bottom: 10px; 수정 */
   left: 0;
   /* width: 100%; */
 }

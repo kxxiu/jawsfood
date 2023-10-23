@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* laptop 해상도 서식 */
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  
+  /************ 레이아웃 ************/
+  .wrap{width: 1200px;}
+  
+  /************ 헤더 ************/
+  /* 내비게이션  */
+  #gnb > ul {width: 727px;}
+  #gnb > ul > li:nth-child(4) {margin: 0 20px 0 10px;}
+
+  /************ 메뉴 ************/
+  .box_left .box_cont {
+    width: 600px;
+    padding: 80px 0 0 1%;
+  }
+  .box_right .box_cont {
+    width: 600px;
+    padding: 80px 0 0 130px;
+  }
+  .box_right .main_img {max-width: 480px;}
+
+  /* 슬라이드 */
+  #menu .swiper2 {top: 15px;}
+  #menu .swiper-slide img {max-width: 290px;}
+
+  /* 세트메뉴 */
+  #set_m .main_img {max-width: 500px;}
+  #set_m .swiper-slide img {max-width: 300px;}
+  #set_m .swiper-slide .arrow_btn {left: -65px;top: 42%;}
+
+  /* 사이드메뉴 */
+  #side_m .main_img {max-width: 530px;}
+  
+  /************ 뉴스 ************/
+  #news .swiper3 {
+    width: 88%;
+    margin: 20px auto -20px;
+  }
+  .card {width: 320px;height: 490px;}
+  .img-area {height: 220px;}
+  #news .arrow_btn {margin: 0 0;}
+
+  /************ 매장찾기 ************/
+  .circle_box{
+    top: -275px;left: -125px;
+    transform: scale(0.9);
+  }
+  .circle1 {top: 175px;left: 428px;}
+  .circle2 {top: 54px;left: 565px;}
+
+  /************ 커뮤니티 ************/
+  .sns_cont {justify-content: space-between;}
+  .sns_outbox {
+    width: 300px;height: 300px;
+    margin-bottom: 55px;
+  }
+  .sns_inbox {width: 270px;height: 270px;}
+  .sns_inbox a {margin-left: 38px;}
+  #community .swiper4{width: 860px;}
+  #community .swiper-slide a img {width: 330px;height: 330px;}
+
+}
