@@ -21,7 +21,8 @@ body > header {
 }
 
 /* 햄버커 버튼 체크시 내비게이션 나타남 (태블릿, 모바일 환경) */
-  #toggle:checked + header #gnb {left: 0;}
+#toggle:checked + header #gnb {left: 0;}
+#toggle:checked ~ main #aside {display: none;}
 
 /* 내비게이션 */
 #gnb > ul > li > a {
