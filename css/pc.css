@@ -543,7 +543,6 @@ footer {
   box-shadow: 0 0 5px rgba(88, 88, 88, 0.2);
   border-radius: 50px;
   text-align: center;
-  overflow: hidden;
   transition: 0.3s;
 }
 #aside li:first-child {margin-bottom: 12px;}

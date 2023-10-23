@@ -279,6 +279,7 @@
     right: 15px;bottom: 2%;
     width: 52px;height: 110px;
     padding: 10px 0;
+    overflow: hidden;
   }
   #aside li:first-child {margin-bottom: 10px;}
   #aside li.quick_btn, .plus {
