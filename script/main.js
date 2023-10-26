@@ -8,9 +8,10 @@ $(document).ready(function(){
   },function(){
     if(screenWidth < 1200){
       // 태블릿, 모바일 헤더 높이
-      $('.header_inner').css('height','60px')
+      $('.header_inner').css('height','60px');
+
     }else{
-      $('.header_inner').css('height','70px')
+      $('.header_inner').css('height','70px');
     }
   })
 
@@ -19,7 +20,34 @@ $(document).ready(function(){
     $(".lang ul li").stop().slideToggle(300).css('top','0');
   });
 
-  // 퀵메뉴 top버튼
+  // 퀵메뉴
+  $(window).scroll(function(){
+    let sPos = Math.ceil(($(this).scrollTop() / ($(document).height() - $(this).height())) * 100);
+    console.log(sPos);
+
+    if(sPos >= 5) {
+      $('#aside').fadeIn();
+    }else {
+      $('#aside').fadeOut();
+    }
+
+    if(screenWidth < 719){
+      if(sPos >= 85){
+        $('#aside').css({'position':'absolute'});
+      }else{
+        $('#aside').css({'position':'fixed'});
+      }
+
+    }else {
+      if(sPos >= 91) {
+        $('#aside').css({'position':'absolute'});
+      }else {
+        $('#aside').css({'position':'fixed'});
+      }
+    }
+  });
+
+  // top버튼
   $('.top').on('click',function(){
     $('html, body').animate({
       scrollTop : 0
