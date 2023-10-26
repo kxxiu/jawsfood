@@ -536,14 +536,13 @@ footer {
 /************ 퀵메뉴 ************/
 #aside {
   position: fixed;z-index: 100;
-  right: 15px;bottom: 2%;
+  right: 15px;bottom: 15px;
   width: 58px;height: 225px;
   padding: 15px 0;
   background: rgba(255,255,255,0.9);
   box-shadow: 0 0 5px rgba(88, 88, 88, 0.2);
   border-radius: 50px;
   text-align: center;
-  transition: 0.3s;
 }
 #aside li:first-child {margin-bottom: 12px;}
 #aside li.quick_btn, .plus {
@@ -555,7 +554,7 @@ footer {
   font-size: 15px;
   overflow: hidden;
   cursor: pointer;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 #aside li:nth-child(3) {top: 115px;}
 #aside li:nth-child(4) {top: 165px;}

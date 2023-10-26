@@ -388,7 +388,7 @@
 
   /************ 퀵메뉴 ************/
   #aside {
-    right: 15px;bottom: 2%;
+    right: 15px;
     width: 52px;height: 110px;
     padding: 10px 0;
     overflow: hidden;
@@ -403,6 +403,7 @@
   #aside li:nth-child(4) {top: 150px;}
   #aside li.plus {display: block;}
   #aside li.quick_btn {display: none;}
+  #aside li.quick_btn:hover {width:38px;padding-right: 0;}
   #aside li:first-child a {font-size: 1rem;}
   .close {
     top: 196px;
