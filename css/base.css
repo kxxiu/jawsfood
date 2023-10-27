@@ -32,7 +32,7 @@
 
 * {box-sizing: border-box;}
 body{
-  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
+  font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif;
   font-size: 18px;
   color: var(--txt_basic);
 }
