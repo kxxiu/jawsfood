@@ -11,11 +11,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Paytone+One&display=swap');
 
 @font-face {
-  font-family: 'Pretendard-Regular';
+  font-family: 'Pretendard';
   src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
+
+/* @font-face {
+  font-family: 'GangwonEduPowerExtraBoldA';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+} */
+
 :root{
   /* color */
   --main_color:#AB162C;
@@ -32,7 +40,7 @@
 
 * {box-sizing: border-box;}
 body{
-  font-family: 'Pretendard-Regular', 'Noto Sans KR', sans-serif;
+  font-family: 'Pretendard', 'Noto Sans KR', sans-serif;
   font-size: 18px;
   color: var(--txt_basic);
 }

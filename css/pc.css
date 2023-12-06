@@ -12,7 +12,7 @@
 /************ 헤더 ************/
 .header_inner {
   overflow: hidden;
-  position: absolute;z-index: 100;
+  position: absolute;z-index: 1000;
   width: 100%;height: 70px;
   background: rgba(255, 255, 255, 0.9);
   transition: 0.3s;

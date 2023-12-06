@@ -159,38 +159,38 @@
     padding: 10px 0 10px;
   }
   .footer_call {
-    flex-direction: column;
     gap: 10px;
     text-align: center;
   }
-  .footer_call dt {font-size: 1.125rem;} /*18px*/
+  .footer_call dt {font-size: 0.937rem;} /*15px*/
   .footer_call dt i{
     margin: 10px 0;
-    width: 38px;
-    line-height: 38px;
-    font-size: 1.562rem; /*25px*/
+    width: 34px;
+    line-height: 34px;
+    font-size: 1.375rem; /*22px*/
   }
   .footer_call dt i.fa-phone{
-    width: 36px;height: 36px;
+    width: 34px;height: 34px;
     font-size: 1.25rem; /*20px*/
   }
   .footer_call dt span {display: block;}
   .footer_call dd {
     padding-left: 0;
+    font-size: 0.75rem; /*12px*/
     line-height: 1rem;
   }
   .footer_address {
-    margin-top: 30px;
+    margin-top: 15px;
     text-align: center;
   }
-  .footer_address img{width: 150px;}
+  .footer_address img{width: 124px;}
   .footer_address address {
-    padding: 15px 0;
-    line-height: 17px;
+    padding: 10px 0;
+    line-height: 1rem;
   }
   .footer_address p {
-    margin: 10px 0 8px;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
+    font-size: 0.75rem; /*12px*/
   }
 
   /************ 배너 ************/
@@ -208,7 +208,7 @@
     width: 98%;
     padding: 11% 0 0 1%;
   }
-  .box_left .box_cont h3 {font-size: 1.875rem;} /*30px*/
+  .box_left .box_cont h3 {font-size: 1.75rem;} /*28px*/
   .box_left .box_cont ul {
     width: 140px;
     padding: 0px 15px;
@@ -239,13 +239,13 @@
   }
   
   /* 메뉴 슬라이드 */
-  #menu .swiper2 {left: 10%;}
+  #menu .swiper2 {left: 15%;}
   #menu .swiper-slide p {
     line-height: 25px;
     font-size: 1rem;
   }
   #menu .swiper-slide img {width: 230px;}
-  #menu .arrow_btn {left: -10%;top: 30%;}
+  #menu .arrow_btn {left: -16%;top: 30%;}
 
   /* 세트메뉴 */
   #set_m .main_img {
@@ -265,7 +265,7 @@
   /************ 뉴스&이벤트 ************/
   #news h3 {
     margin-bottom: 10px;
-    font-size: 1.875rem; /*30px*/
+    font-size: 1.75rem; /*28px*/
   }
   #news .wrap > p {line-height: 1.44rem;} /*23px*/
   .flow_wrap {font-size: 2.5rem;} /*40px*/
@@ -277,8 +277,10 @@
     min-height: 400px;
     max-width: 70%;
   }
-  .img-area {height: 45%;}
-  .news_txt {padding: 5%;}
+  .img-area {
+    height: 100%;
+    min-height: 180px;
+  }
   .news_txt span {
     padding-top: 2%;
     font-size: 1rem;
@@ -294,10 +296,22 @@
     margin: 4% 0 2% 0;
     font-size: 1rem;
     line-height: 1.25rem; /*20px*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap:break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
   }
   .news_txt p {
     font-size: 0.937rem; /*15px*/
     line-height: 1.375rem; /*22px*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap:break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
   }
   @media screen and (max-width: 520px) {
     .card {min-width: 95%;}
@@ -346,7 +360,7 @@
 
   /************ 커뮤니티 ************/
   #community {padding: 11% 0 70px 1%;}
-  #community h2 {font-size: 1.875rem;} /*30px*/
+  #community h2 {font-size: 1.75rem;} /*28px*/
   #community h2 img {
     width: 40px;
     padding-right: 10px;
@@ -415,5 +429,4 @@
   #aside li:nth-child(3) i {font-size: 1.187rem;} /*18px*/
   #aside li:nth-child(4) i {font-size: 1.5rem;} /*26px*/
   #aside li span {color: #FDFBF6;}
-
 }
