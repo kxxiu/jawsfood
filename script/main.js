@@ -102,21 +102,21 @@ $(document).ready(function(){
   const list_side = $('#list_side');
 
   list_main.click(function(){
-    $('#main_m').show(400);
+    $('#main_m').fadeIn(400);
     $('#set_m, #side_m').hide();
     $('#list_main').css("fontWeight","bold");
     $('#list_set, #list_side').css("fontWeight","normal");
   });
 
   list_set.click(function(){
-    $('#set_m').show(400);
+    $('#set_m').fadeIn(400);
     $('#main_m, #side_m').hide();
     $('#list_set').css("fontWeight","bold");
     $('#list_main, #list_side').css("fontWeight","normal");
   });
 
   list_side.click(function(){
-    $('#side_m').show(400);
+    $('#side_m').fadeIn(400);
     $('#main_m, #set_m').hide();
     $('#list_side').css("fontWeight","bold");
     $('#list_main, #list_set').css("fontWeight","normal");
