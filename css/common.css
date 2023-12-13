@@ -31,7 +31,7 @@ body > header {
 
 /* 다국어 버튼 */
 .lang {
-  position: absolute;z-index: 100;
+  position: absolute;z-index: 1000;
   top: 50%;left: 0;
   transform: translateY(-50%);
 }
