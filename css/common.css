@@ -3,7 +3,7 @@
 
 /* 아이콘 숨김 */
 #toggle, label.menu_bars,
-.franchise_icon, #aside li.plus, .gnb_top{
+.franchise_icon, #aside li.plus, .gnb_top, .gnb_logo{
   display: none;
 }
 
